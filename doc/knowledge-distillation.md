@@ -12,6 +12,4 @@ Knowledge distillation refers to the process of transferring knowledge from a la
 
 We believe it will be necessary to use knowledge distillation in the future as we use larger models but have less available processing power to back them.
 
-Implementing KD to our satellite segmentation imagery results in a better prediction before without it just like the results with our HPO method.
-
-The curves however barely had any change to them with no changes in any trends.
+Implementing KD to our satellite segmentation imagery results in a better prediction before without it just like the results with our HPO method. But there is still some images that are difficult to segment since there is no differentiation in objects. Other images however are easy to identify objects, resulting in nicer predictions all around. The curves however barely had any change to them with no changes in any trends. We still cannot comment on the precision, recall curves at this point in time.
